@@ -1,0 +1,22 @@
+{
+  "name": "reciprocityextension",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b0b3rt/ReciprocityExtension.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/b0b3rt/ReciprocityExtension/issues"
+  },
+  "homepage": "https://github.com/b0b3rt/ReciprocityExtension#readme",
+  "devDependencies": {
+    "@types/chrome": "^0.0.193"
+  }
+}

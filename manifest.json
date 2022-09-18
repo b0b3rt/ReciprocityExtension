@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "ReciprocityExtension",
+  "description": "This extension does a bunch of helpful stuff on reciprocity.io.",
+  "version": "1.0",
+  "permissions": [
+    "tabs"
+  ],
+  "content_scripts": [{
+    "matches": ["https://*.reciprocity.io/*"],
+    "js": ["build/index.js"]
+  }]
+}
