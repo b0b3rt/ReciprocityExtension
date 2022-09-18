@@ -3,6 +3,14 @@
 - Allows you to "hide" (reorder to below a separator row) users
 - Shows you if someone's updated their bio since you last opened reciprocity by adding a "snooze" button next to the "hide" button (the snooze button goes away when you click on it)
 
+---
+
+## To load this extension
+1. Clone this repository (or download it as a zip file, and then unpack it)
+2. In Chrome, open `chrome://extensions/` in a new tab.
+3. Click `Load Unpacked`, navigate your file explorer to the extension's folder (such that it displays the "inside" - it should have a "build" and "node_modules" folder visible, at a minimum), and click `Select Folder`.
+4. Refresh `reciprocity.io` and you should be good to go!
+
 Keep in mind that all of this state is managed via Chrome's localstorage.  If you wipe your localstorage, you'll need to do it all again.  If you want, you can download a copy for safe-keeping by:
 1. Opening Chrome's dev console (ctrl+shift+i / cmd+shift+i)
 2. Going to the `Application` tab
@@ -15,14 +23,6 @@ Keep in mind that all of this state is managed via Chrome's localstorage.  If yo
 
 Alternatively, here's a screenshot up to step 5:
 ![Save localstorage data](./images/save_localstorage_data.png)
-
----
-
-## To load this extension
-1. Clone this repository (or download it as a zip file, and then unpack it)
-2. In Chrome, open `chrome://extensions/` in a new tab.
-3. Click `Load Unpacked`, navigate your file explorer to the extension's folder (such that it displays the "inside" - it should have a "build" and "node_modules" folder visible, at a minimum), and click `Select Folder`.
-4. Refresh `reciprocity.io` and you should be good to go!
 
 ---
 
