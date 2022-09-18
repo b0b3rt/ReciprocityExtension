@@ -2,7 +2,7 @@
 - Automatically reorders users you've left a check-mark on to just under the last user you "matched" with, or to the top of the list, otherwise
 - Automatically reorders new users to show up just below the last user you left a check-mark on, so you don't need to scour the now-hundreds of users to check if anyone new has shown up.  They'll have both a "hide" and "snooze" button.  The "snooze" button keeps them in the top section but below users you've checked.  The "hide" button puts them in the bottom section, under a new separator row.  (Those users will then have an "unhide" button instead, which does the obvious thing.)
 - Shows you if someone's updated their bio since you last opened reciprocity by adding a "snooze" button next to the "hide" button (the snooze button goes away when you click on it)
-- This extension *does not* send any data back to a remote server.  All operations and data storage are handled 100% locally.
+- This extension **does not** send any data back to a remote server.  All operations and data storage are handled 100% locally.
 
 ---
 
